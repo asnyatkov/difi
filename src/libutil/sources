@@ -1,0 +1,14 @@
+TARGETNAME=libutil
+TARGETPATH=..\..\bin
+TARGETTYPE=DRIVER_LIBRARY
+TARGETLIBS=$(DDK_LIB_PATH)\Aux_klib.lib $(TARGETPATH)\*\libcrt.lib
+INCLUDES=..\..\inc
+
+MSC_WARNING_LEVEL=/W4 /WX
+
+SOURCES=\
+        disk_tracker.c  \
+        difi_rt_linking.c \
+        difi_reloc_module.c
+
+

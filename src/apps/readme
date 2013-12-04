@@ -1,0 +1,11 @@
+difi-cli, difi-lib
+====================
+
+Test application to control difi driver. Also provides support routines to 
+enumerate and control windows devices.
+
+This KB will get you started:
+
+http://support.microsoft.com/kb/259695
+
+

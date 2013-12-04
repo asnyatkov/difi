@@ -1,0 +1,16 @@
+TARGETNAME=difi
+TARGETPATH=..\..\bin
+TARGETTYPE=EXPORT_DRIVER
+INCLUDES=..\..\inc
+
+MSC_WARNING_LEVEL=/W4 /WX
+
+SOURCES=\
+    disk_filter.c \
+    disk_filter_read_write.c
+
+TARGETLIBS=\
+    $(TARGETPATH)\*\libcrt.lib \
+    $(TARGETPATH)\*\libutil.lib
+
+DLLDEF=difi.def

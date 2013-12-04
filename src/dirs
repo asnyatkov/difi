@@ -1,0 +1,6 @@
+DIRS= \
+     libutil    \
+     libcrt    \
+     unittest    \
+     diskfilter
+     

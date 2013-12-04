@@ -1,0 +1,9 @@
+TARGETNAME=cutest
+TARGETPATH=..\..\bin
+TARGETTYPE=LIBRARY
+INCLUDES=..\..\inc
+
+MSC_WARNING_LEVEL=/W4 /WX
+
+SOURCES=CuTest.c
+        

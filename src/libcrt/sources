@@ -1,0 +1,11 @@
+TARGETNAME=libcrt
+TARGETPATH=..\..\bin
+TARGETTYPE=DRIVER_LIBRARY
+INCLUDES=..\..\inc
+BUFFER_OVERFLOW_CHECKS=0
+
+MSC_WARNING_LEVEL=/W4 /WX
+
+SOURCES=hashtable.c bobs_hash.c qsort.c
+
+

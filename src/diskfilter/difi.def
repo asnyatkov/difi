@@ -1,0 +1,11 @@
+;
+; DEF file for difi
+;
+
+NAME difi.sys
+
+EXPORTS
+    difi_start_tracking_device_by_index
+    difi_stop_tracking_device_by_index_discard
+
+
