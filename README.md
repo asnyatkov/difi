@@ -40,5 +40,21 @@ To compile all projects, you need:
 To build kernel mode components, first start "x86 checked mode environment" command
 prompt and run build.bat in it.
 
+How to run
+==============================================================
+
+DO NOT RUN DIFI ON YOUR PHYSICAL COMPUTER, USE A VIRTUAL MACHINE! 
+
+Difi is destructive by nature, and I would hate it if you ruin your hard drive. So if you're really want to give it a test drive, use a virtual machine. You'll also have to turn driver sign verification off.
+
+To install and run Difi drivers, you'll need several command line utilities:
+
+addfilter.exe
+psshutdown.exe
+
+
+Run support/deploy.bat to deploy all Difi components to the target computer. Then run instdififilt.bat there, it will copy the driver to windows system directory and reboot. After reboot, the driver is ready to use.
+
+
 (more is coming)
 
